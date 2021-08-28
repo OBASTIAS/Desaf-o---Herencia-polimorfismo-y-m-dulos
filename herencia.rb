@@ -3,24 +3,17 @@ class Person
     attr_accessor :first_name, :last_name, :age
 
     def initialize(first, last, age=0)
-
       @first_name = first
       @last_name = last
       @age = age
-      
-
     end
 
     def birthday
-
       @age += 1
-
     end
 
     def introduce
-
         "Mi nombre es #{@first_name} #{@last_name}."
-
     end
 end
 
